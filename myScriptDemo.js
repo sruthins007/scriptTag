@@ -31,7 +31,7 @@ class ScriptInfo extends HTMLElement {
     myIframe.src = "https://dev.aikb.carynhealth.com";
     myIframe.setAttribute(
       "style",
-      "display: none;background-color: #fefefe;margin: auto;padding: 20px;border: 1px solid #888;width: 60%;height: 600px;position: fixed"
+      "display: none;background-color: #fefefe;margin: auto;padding: 20px;border: 1px solid #888;width: 60%;height: 600px;position: fixed;z-index: 1"
     );
 
     button.onclick = function() {
